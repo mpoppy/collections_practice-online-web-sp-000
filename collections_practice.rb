@@ -59,7 +59,7 @@ def add_s(words)
 end
 
 def add_s(words)
-  i = 0 
+  i = 0
   while i < words.length
     if i == 1
       i += 1
