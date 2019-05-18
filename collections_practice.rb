@@ -43,6 +43,7 @@ def find_a(words)
 end
 
 def sum_array(numbers)
-  
-
+  sum = 0
+  numbers.each |number| 
+    sum += number
 end
