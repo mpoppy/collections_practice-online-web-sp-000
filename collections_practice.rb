@@ -26,3 +26,8 @@ def swap_elements(numbers)
   numbers[2] = temp
   return numbers
 end
+
+def reverse_array(integers)
+  integers.sort do |a,b|
+    b <=> a  
+end
