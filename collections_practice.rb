@@ -63,7 +63,7 @@ def add_s(words)
   while i < words.length
     if i == 1
       i += 1
-    else condition
+    else
       words[i] + "s"
       i += 1
     end
