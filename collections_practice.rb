@@ -51,19 +51,19 @@ def sum_array(numbers)
 end
 
 words = ["hi", "marc", "hello"]
-def add_s(words)
+#def add_s(words)
 #add s to every word in an array except for second
-    words.collect do |word|
-        word + "s"
-    end
-end
+  #  words.collect do |word|
+    #    word + "s"
+    #end
+#end
 
 def add_s(words)
   i = 0
   while i < words.length
     if i == 1
       i += 1
-    else
+    else condition
       words[i] + "s"
       i += 1
     end
