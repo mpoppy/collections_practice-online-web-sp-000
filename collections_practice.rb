@@ -67,5 +67,5 @@ def add_s(words)
       words[i] + "s"
       i += 1
     end
-  end  
+  end
 end
