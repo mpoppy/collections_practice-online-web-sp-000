@@ -30,3 +30,6 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+def kesha_maker(strings)
+end
