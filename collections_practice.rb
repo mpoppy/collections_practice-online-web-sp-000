@@ -57,3 +57,15 @@ def add_s(words)
         word + "s"
     end
 end
+
+def add_s(words)
+  i = 0 
+  while i < words.length
+    if i == 1
+      i += 1
+    else
+      word + "s"
+      i += 1
+    end
+  end  
+end
