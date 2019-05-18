@@ -41,3 +41,8 @@ def find_a(words)
   #return only words that start with a
   words.select { |word| word[0] == "a"}
 end
+
+def sum_array(numbers)
+  
+
+end
