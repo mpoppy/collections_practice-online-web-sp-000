@@ -39,5 +39,5 @@ end
 
 def find_a(words)
   #return only words that start with a
-  words.find { |word| word.include?(word[0] = "a")}
+  words.detect { |word| word.include?(word[0] = "a")}
 end
