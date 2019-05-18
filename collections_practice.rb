@@ -56,5 +56,6 @@ def add_s(words)
     words.map do |word|
       if !words[2]
         word + "s"
+      end
     end
 end
