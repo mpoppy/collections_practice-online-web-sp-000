@@ -53,9 +53,7 @@ end
 words = ["hi", "marc", "hello"]
 def add_s(words)
 #add s to every word in an array except for second
-    words.map do |word|
-      if !words[2]
+    words.collect do |word|
         word + "s"
-      end
     end
 end
