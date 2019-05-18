@@ -54,4 +54,5 @@ def add_s(words)
 #add s to every word in an array except for second
     words.each do |word|
       word + "s"
+    end
 end
