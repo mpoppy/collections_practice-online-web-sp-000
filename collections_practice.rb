@@ -19,7 +19,10 @@ def sort_array_char_count(strings)
   end
 end
 
-def swap_elements(a, b)
+def swap_elements(numbers)
 #swap out position 1, 2 in the array
-  self[a], self[b] = self[b], self[a]
+  temp = numbers[1]
+  numbers[1] = numbers[2]
+  numbers[2] = temp
+  return numbers
 end
