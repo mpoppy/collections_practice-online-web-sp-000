@@ -64,7 +64,7 @@ def add_s(words)
     if i == 1
       i += 1
     else
-      words[i] + "s"
+      words[i] << "s"
       i += 1
     end
   end
